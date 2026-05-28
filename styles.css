@@ -117,6 +117,11 @@ h3 {
   color: var(--white);
 }
 
+/* ── Nav Logo Image ── */
+.nav-logo-img {
+  display: none; /* text logo only in nav */
+}
+
 /* ── Nav ── */
 #nav {
   position: fixed;
@@ -256,27 +261,20 @@ h3 {
   background-image: linear-gradient(160deg, #1a1a1a 0%, #2d2420 100%);
 }
 
+.hero-logo-img {
+  width: 300px;
+  max-width: 70vw;
+  margin-bottom: 8px;
+  display: block;
+}
+
 .hero-eyebrow {
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 24px;
-}
-
-#hero h1 {
-  font-family: var(--font-serif);
-  font-size: clamp(2.8rem, 7vw, 5.5rem);
-  font-weight: 400;
-  line-height: 1.1;
-  color: var(--white);
-  margin-bottom: 28px;
-}
-
-#hero h1 em {
-  font-style: italic;
-  color: var(--gold-light);
+  margin-bottom: 16px;
 }
 
 .hero-sub {
@@ -316,6 +314,33 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 48px;
+}
+
+.services-grid--two {
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 48px;
+}
+
+.service-category--full {
+  margin-bottom: 0;
+}
+
+.spa-list li {
+  align-items: flex-start;
+  padding: 16px 0;
+}
+
+.spa-name {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.spa-name em {
+  font-style: normal;
+  font-size: 0.8rem;
+  color: var(--gray);
+  letter-spacing: 0.02em;
 }
 
 .service-list {
@@ -360,16 +385,20 @@ h3 {
 
 .gallery-item {
   aspect-ratio: 1;
+  overflow: hidden;
   background: var(--cream);
-  border: 1px solid var(--gray-light);
 }
 
-.gallery-note {
-  text-align: center;
-  font-size: 0.85rem;
-  color: var(--gray);
-  margin-top: 32px;
-  font-style: italic;
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.04);
 }
 
 /* ── About ── */
