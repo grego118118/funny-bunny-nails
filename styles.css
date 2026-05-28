@@ -9,6 +9,8 @@
   --gold-light: #e8d5b0;
   --gray: #6b6b6b;
   --gray-light: #e8e4df;
+  --pink: #E8638A;
+  --pink-light: #f5b8cb;
   --font-serif: 'Playfair Display', Georgia, serif;
   --font-sans: 'Inter', system-ui, sans-serif;
 }
@@ -93,8 +95,8 @@ h3 {
 }
 
 .btn-primary:hover {
-  background: var(--gold);
-  border-color: var(--gold);
+  background: var(--pink);
+  border-color: var(--pink);
   color: var(--white);
 }
 
@@ -203,7 +205,8 @@ h3 {
 }
 
 #nav.scrolled .btn-book:hover {
-  background: var(--black);
+  background: var(--pink);
+  border-color: var(--pink);
   color: var(--white);
 }
 
@@ -324,7 +327,7 @@ h3 {
 
 #hero h1 em {
   font-style: italic;
-  color: var(--gold-light);
+  color: var(--pink-light);
 }
 
 .hero-ctas {
@@ -383,7 +386,7 @@ h3 {
 }
 
 .tick-sep {
-  color: var(--gold) !important;
+  color: var(--pink) !important;
   padding: 0 4px !important;
   letter-spacing: 0 !important;
 }
@@ -470,7 +473,7 @@ h3 {
 }
 
 .service-list li span:last-child {
-  color: var(--gold);
+  color: var(--pink);
   font-weight: 500;
   white-space: nowrap;
 }
@@ -497,6 +500,7 @@ h3 {
 .gallery-group .label {
   display: block;
   margin-bottom: 20px;
+  color: var(--pink);
 }
 
 .gallery-divider {
@@ -720,7 +724,7 @@ footer {
   transition: color 0.2s;
 }
 
-.footer-insta:hover { color: var(--white); }
+.footer-insta:hover { color: var(--pink); }
 
 .footer-copy {
   font-size: 0.8rem;
