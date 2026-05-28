@@ -460,11 +460,19 @@ h3 {
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 16px;
+}
+
+.gallery-note {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--gray);
+  margin-top: 24px;
+  font-style: italic;
 }
 
 .gallery-item {
-  aspect-ratio: 1;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   background: var(--cream);
 }
