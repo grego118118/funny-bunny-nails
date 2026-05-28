@@ -702,13 +702,21 @@ footer {
 
 .footer-address a:hover { color: var(--gold); }
 
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.footer-social-sep { color: rgba(255,255,255,0.2); }
+
 .footer-insta {
-  display: inline-block;
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--gold);
   letter-spacing: 0.04em;
-  margin-top: 4px;
   transition: color 0.2s;
 }
 
