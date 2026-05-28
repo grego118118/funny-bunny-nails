@@ -50,7 +50,7 @@ section { padding: 100px 0; }
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--pink);
   margin-bottom: 16px;
 }
 
@@ -69,7 +69,7 @@ h3 {
   font-weight: 600;
   margin-bottom: 24px;
   padding-bottom: 12px;
-  border-bottom: 1px solid var(--gold-light);
+  border-bottom: 1px solid var(--pink-light);
 }
 
 .section-sub {
@@ -153,12 +153,12 @@ h3 {
   font-family: var(--font-serif);
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--white);
+  color: var(--pink);
   transition: color 0.3s;
   white-space: nowrap;
 }
 
-#nav.scrolled .nav-logo { color: var(--black); }
+#nav.scrolled .nav-logo { color: var(--pink); }
 
 .nav-links {
   list-style: none;
@@ -356,9 +356,9 @@ h3 {
   transition: color 0.2s;
 }
 
-.hero-meta a:hover { color: var(--gold); }
+.hero-meta a:hover { color: var(--pink); }
 
-.hero-dot { color: var(--gold); }
+.hero-dot { color: var(--pink); }
 
 /* ── Ticker ── */
 .ticker-wrap {
@@ -403,7 +403,7 @@ h3 {
 }
 
 #video-section .section-header h2 { color: var(--white); }
-#video-section .label { color: var(--gold); }
+#video-section .label { color: var(--pink); }
 
 .video-wrap {
   max-width: 900px;
@@ -546,7 +546,7 @@ h3 {
   align-items: center;
 }
 
-.about-text .label { color: var(--gold); }
+.about-text .label { color: var(--pink); }
 
 .about-text h2 {
   color: var(--white);
@@ -586,7 +586,7 @@ h3 {
   font-size: 10px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--pink);
   font-weight: 500;
 }
 
@@ -601,7 +601,7 @@ h3 {
   transition: color 0.2s;
 }
 
-.about-card-line a:hover { color: var(--gold); }
+.about-card-line a:hover { color: var(--pink); }
 
 /* ── Contact ── */
 #contact { background: var(--cream); }
@@ -630,7 +630,7 @@ h3 {
   font-size: 10px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--pink);
   font-weight: 500;
   margin-bottom: 8px;
 }
@@ -646,7 +646,7 @@ h3 {
   transition: color 0.2s;
 }
 
-.contact-block a:hover { color: var(--gold); }
+.contact-block a:hover { color: var(--pink); }
 
 .map-link {
   display: inline-block;
@@ -654,7 +654,7 @@ h3 {
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: var(--gold);
+  color: var(--pink);
   transition: color 0.2s;
 }
 
@@ -704,7 +704,7 @@ footer {
   transition: color 0.2s;
 }
 
-.footer-address a:hover { color: var(--gold); }
+.footer-address a:hover { color: var(--pink); }
 
 .footer-social {
   display: flex;
@@ -719,7 +719,7 @@ footer {
 .footer-insta {
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--gold);
+  color: var(--pink);
   letter-spacing: 0.04em;
   transition: color 0.2s;
 }
@@ -737,7 +737,7 @@ footer {
   transition: color 0.2s;
 }
 
-.hero-insta:hover { color: var(--gold) !important; }
+.hero-insta:hover { color: var(--pink) !important; }
 
 /* ── Responsive ── */
 @media (max-width: 900px) {
