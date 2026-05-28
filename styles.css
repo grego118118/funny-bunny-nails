@@ -702,11 +702,30 @@ footer {
 
 .footer-address a:hover { color: var(--gold); }
 
+.footer-insta {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--gold);
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+  transition: color 0.2s;
+}
+
+.footer-insta:hover { color: var(--white); }
+
 .footer-copy {
   font-size: 0.8rem;
   color: rgba(255,255,255,0.25);
   margin-top: 8px;
 }
+
+.hero-insta {
+  color: rgba(255,255,255,0.45) !important;
+  transition: color 0.2s;
+}
+
+.hero-insta:hover { color: var(--gold) !important; }
 
 /* ── Responsive ── */
 @media (max-width: 900px) {
